@@ -1,1 +1,90 @@
+:root {
+    --dark-background: #0F172A;
+    --text-primary: #E2E8F0;
+    --dark-text-primary: #E2E8F0;
+    --dark-text-secondary: #CBD5E1;
+}
 
+body {
+    background: var(--dark-background);
+    color: var(--dark-text-primary);
+    font-family: Plus Jakarta Sans, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: var(--text-primary);
+}
+
+.header {
+    background: url("/img/header-2.svg") no-repeat bottom;
+    width: 100%;
+    background-size: cover;
+    height: 160px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0 0 10px;
+}
+
+.subtitle {
+    color: var(--dark-text-secondary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    margin-bottom: 15px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.social button {
+    border: none;
+    border-radius: 10px;
+    padding: 4px 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.social button a {
+    text-decoration: none;
+    color: var(--dark-background);
+}
+
+main {
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.logo_rs {
+    max-height: 50px;
+    padding: 10px;
+    background: var(--dark-text-primary);
+}
+
+footer {
+    text-align: center;
+}
