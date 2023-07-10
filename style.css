@@ -64,24 +64,22 @@ a {
     padding: 0;
 }
 
-.social button {
+.social a {
     border: none;
     border-radius: 10px;
     padding: 4px 8px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-.social button a {
     text-decoration: none;
     color: var(--dark-background);
+    background: var(--dark-text-primary);
 }
 
 main {
     max-width: 1024px;
     margin: auto;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .logo_rs {
